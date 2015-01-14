@@ -3,7 +3,7 @@ require 'trollop'
 require 'parseconfig'
 require 'aws-sdk-core'
 
-config = ParseConfig.new('/home/jeevan/.aws/config')
+config = ParseConfig.new('/path/to/config')
 c1 = config['default']['aws_access_key_id']
 c2 = config['default']['aws_secret_access_key']
 c3 = config['default']['region']
